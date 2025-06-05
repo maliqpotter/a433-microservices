@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: lint
     env:
-      IMAGE_NAME: ghcr.io/maliqpotter09/karsajobs-ui:latest
+      IMAGE_NAME: ghcr.io/maliqpotter/karsajobs-ui:latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
